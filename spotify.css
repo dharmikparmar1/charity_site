@@ -1,0 +1,269 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+nav{
+   width: 100vw;
+   height: 80px;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+}
+
+nav>article{
+   width: 90%;
+   height: 100%;
+   display: flex;
+}
+/* .logo{
+   height: inherit;
+   width: 50%;
+   background-color: rgb(10, 10, 10);
+   display: flex;
+   /* justify-content: center; */
+   /* align-items: center;
+}
+.logo>svg{
+   width: 70%;
+   fill: antiquewhite;
+} */
+
+.menu{
+   height:inherit;
+   width: 50%;
+   background-color: rgba(17, 17, 17, 0.87);
+}
+
+nav>article>.menu>ol{
+   height: 100%;
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style-type: none;
+
+}
+nav>article>.menu>ol>li>a{
+   color: white;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+nav>article>.menu>ol>li>a:hover{
+  color: green;
+}
+
+#home{
+  
+  height: 70.5vh;
+  width: 100%;
+  background: url(./assets/bubbles-dktp\ \(4\).svg)  center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+  /* background-position: center center; */
+  justify-content: center;
+  align-items: end;
+  display: flex;
+}
+
+
+#home>article{
+  height: 90%;
+  width: 70%;
+  /* border: 2px solid white; */
+  display: flex;
+}
+#home>article>.phone{
+  height: 100%;
+  width: 40% ;
+  /* background-color: aqua; */
+  /* border: .25px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items:end;
+  
+}
+#home>article>.phone>div{
+   height: 95%;
+   width: 60%;
+   background-color: white;
+   /* display: flex;
+   justify-content: center;
+   align-items: end; */
+   border-radius: 30px 30px 0px 0px;
+   text-align: center;
+  
+}
+#home>article>.phone>div>div{
+height: 7px;
+width: 50px;
+background-color: black;
+border-radius: 20px;
+margin-left: 125px;
+margin-top: 15px;
+} 
+#home>article>.phone>div>img{
+   height: 93%;
+   width: 95%;
+   margin-top:10px;
+   
+
+}
+
+#home>article>.text{
+  height: 100%;
+  width:60%;
+  /* background-color: chocolate; */
+/* padding-top: 130px; */
+}
+#home>article>.text>h1{
+     font-size: 40px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+}
+#home>article>.text>button{
+   height: 50px;
+   width: 200px;
+   border-radius: 30px;
+   font-weight: bold;
+   margin-top: 25px;
+   border: none;
+}
+#home>article>.text>button:hover{
+   cursor: pointer;
+   transform: scale(1.05);
+}
+#page2{
+   height:85vh;
+   width: 100%;
+   /* background-color: aqua; */
+   justify-content:center;
+   /* align-items: end; */
+   /* display: flex; */
+   margin-top: 5px;
+
+}
+#page2>h2{
+   font-weight: bold;
+   font-size: 50px;
+   margin-left: 42%;
+   margin-top: 5%;
+  
+}
+#page2>article{
+   height: 50vh;
+   width: 70%;
+   /* background-color: red; */
+   margin-left: 15%;
+   margin-top: 10%;
+   display: flex;
+   justify-content:center;
+   flex-direction:row;
+}
+#page2>article>div{
+   height: 100%;
+   width: 25%;
+   border: 2px solid black;
+   flex-direction: column;
+   /* justify-content:center; */
+   /* align-items:; */
+   display:flex;
+}
+
+.A>img{
+   height:50%;
+   width: 70%;
+   margin-left: 42px;
+}
+.A>h1{
+   font-weight: bold;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+   font-size: 22px;
+   margin-left:5%;
+    text-align: center;
+    margin-top: 5%;
+}
+.A>h6{
+   margin-top: 5%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: normal;
+   font-size:medium;
+   font-weight:normal;
+   text-align: center;
+   margin-left: 25%;
+   margin-right: 25%
+}
+.B>img{
+   height:50%;
+   width: 70%;
+   margin-left: 42px;
+
+}
+.B>h1{
+   font-weight: bold;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+   font-size: 22px;
+   margin-left:5%;
+    text-align: center;
+    margin-top: 5%;
+}
+.B>h6{
+   margin-top: 5%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: normal;
+   font-size:medium;
+   font-weight:normal;
+   text-align: center;
+   margin-left: 25%;
+   margin-right: 25%
+}
+.C>img{
+   height:50%;
+   width: 70%;
+   margin-left: 42px;
+
+}
+.C>h1{
+   font-weight: bold;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+   font-size: 22px;
+   margin-left:5%;
+    text-align: center;
+    margin-top: 5%;
+}
+.C>h6{
+   margin-top: 5%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: normal;
+   font-size:medium;
+   font-weight:normal;
+   text-align: center;
+   margin-left: 25%;
+   margin-right: 25%
+}
+.d>img{
+   height:50%;
+   width:70%;
+   margin-left:42px;
+
+}
+.d>h1{
+   font-weight: bold;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+   font-size: 22px;
+   margin-left:5%;
+    text-align: center;
+    margin-top: 5%;
+}
+.d>h6{
+   margin-top:5%;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style:normal;
+   font-size:medium;
+   font-weight:normal;
+   text-align: center;
+   margin-left:25%;
+   margin-right:25%
+}
